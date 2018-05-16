@@ -56,19 +56,7 @@
     │
     ├─settings.js // 关键信息配置
     │
+    |
+    ☀
     └─validatorUtil.js // 信息校验
-
-```
-
-
-
-
-# 启动(需先生成静态文件)
-$ npm run start
-```
-
-首页
-http://localhost:8080
-
-dr-admin
 
