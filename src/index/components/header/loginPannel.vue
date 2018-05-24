@@ -59,13 +59,14 @@ export default {
     },
     logout() {
       api.get("users/logOut").then(result => {
+        console.log(result)
         if (result.data.state === "success") {
           this.$message({
             message: "登出成功",
             type: "success",
-            onClose: () => {
-              window.location = "/";
-            }
+            // onClose: () => {
+            //   window.location = "/";
+            // }
           });
         } else {
           this.$message({
