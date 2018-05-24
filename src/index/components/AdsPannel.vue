@@ -1,6 +1,7 @@
 <template>
     <div>
         <div class="content-ads" v-if="ads.data && ads.data.items && ads.data.items.length>0">
+        <div>FlocyYang creatBy Li会超</div>
             <div class="img-pannel" v-if="ads.data.type == '1'">
                 <div v-if="ads.data.items.length == 1">
                     <a :href="ads.data.items[0].link" target="_blank"><img :src="ads.data.items[0].sImg" :alt="ads.data.items[0].alt" /></a>
